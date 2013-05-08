@@ -1,0 +1,85 @@
+[2013-05-08 11:29:19.955] [INFO] \node_modules\pomelo\lib\application.js - application inited: "connector-server-2"
+[2013-05-08 11:29:20.708] [INFO] console - info: 'socket.io started'
+[2013-05-08 11:29:20.732] [INFO] console - [32m[2013-05-08 11:29:20.732] [INFO] \node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-08 11:29:20.796] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" enter after start...
+[2013-05-08 11:29:20.818] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" finish start
+[2013-05-08 11:29:31.800] [INFO] \node_modules\pomelo\lib\application.js - application inited: "connector-server-2"
+[2013-05-08 11:29:32.399] [INFO] console - info: 'socket.io started'
+[2013-05-08 11:29:32.420] [INFO] console - [32m[2013-05-08 11:29:32.419] [INFO] \node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-08 11:29:32.465] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" enter after start...
+[2013-05-08 11:29:32.470] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" finish start
+[2013-05-08 11:29:47.200] [INFO] \node_modules\pomelo\lib\application.js - application inited: "connector-server-2"
+[2013-05-08 11:29:47.865] [INFO] console - info: 'socket.io started'
+[2013-05-08 11:29:47.868] [ERROR] console -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:884:11)
+    at Server._listen2 (net.js:1022:14)
+    at listen (net.js:1044:10)
+    at Server.listen (net.js:1110:5)
+    at Object.exports.listen (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\node_modules\socket.io\lib\socket.io.js:74:12)
+    at pro.listen (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\node_modules\pomelo-rpc\lib\rpc-server\acceptors\ws-acceptor.js:29:21)
+    at pro.start (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\node_modules\pomelo-rpc\lib\rpc-server\gateway.js:42:17)
+    at pro.start (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\lib\components\remote.js:46:15)
+    at F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\lib\util\appUtil.js:82:19
+    at iterate (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\node_modules\async\lib\async.js:123:13)
+[2013-05-08 11:29:47.889] [INFO] console - [32m[2013-05-08 11:29:47.889] [INFO] \node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-08 11:29:47.938] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" enter after start...
+[2013-05-08 11:29:47.941] [ERROR] console -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:884:11)
+    at Server._listen2 (net.js:1022:14)
+    at listen (net.js:1044:10)
+    at Server.listen (net.js:1110:5)
+    at Connector.start (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\lib\connectors\hybridconnector.js:71:20)
+    at Component.afterStart (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\lib\components\connector.js:54:18)
+    at F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\lib\util\appUtil.js:82:19
+    at iterate (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\node_modules\async\lib\async.js:123:13)
+    at process._tickCallback (node.js:415:13)
+[2013-05-08 11:29:47.941] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" finish start
+[2013-05-08 11:34:23.065] [ERROR] console -  Caught exception: Error: Not running
+    at Server.close (net.js:1208:11)
+    at Connector.stop (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\lib\connectors\hybridconnector.js:77:18)
+    at Component.stop (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\lib\components\connector.js:65:20)
+    at Object.module.exports.stopComps (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\lib\util\appUtil.js:59:10)
+    at Object.module.exports.stopComps (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\lib\util\appUtil.js:64:20)
+    at F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\lib\util\appUtil.js:61:22
+    at process._tickCallback (node.js:415:13)
+[2013-05-08 14:38:42.597] [INFO] \node_modules\pomelo\lib\application.js - application inited: "connector-server-2"
+[2013-05-08 14:38:45.196] [INFO] console - info: 'socket.io started'
+[2013-05-08 14:38:45.235] [INFO] console - [32m[2013-05-08 14:38:45.234] [INFO] \node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-08 14:38:45.291] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" enter after start...
+[2013-05-08 14:38:45.297] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" finish start
+[2013-05-08 14:50:42.642] [INFO] \node_modules\pomelo\lib\application.js - application inited: "connector-server-2"
+[2013-05-08 14:50:43.195] [INFO] console - info: 'socket.io started'
+[2013-05-08 14:50:43.235] [ERROR] console -  Caught exception: Error: Cannot find module 'v8-profiler'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\modules\profiler.js:3:16)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+[2013-05-08 14:52:32.930] [INFO] \node_modules\pomelo\lib\application.js - application inited: "connector-server-2"
+[2013-05-08 14:52:33.517] [INFO] console - info: 'socket.io started'
+[2013-05-08 14:52:33.546] [INFO] console - [32m[2013-05-08 14:52:33.545] [INFO] \node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-08 14:52:33.601] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" enter after start...
+[2013-05-08 14:52:33.606] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" finish start
+[2013-05-08 14:53:35.400] [INFO] \node_modules\pomelo\lib\application.js - application inited: "connector-server-2"
+[2013-05-08 14:53:36.377] [INFO] console - info: 'socket.io started'
+[2013-05-08 14:53:36.423] [ERROR] console -  Caught exception: Error: Cannot find module 'v8-profiler'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\modules\profiler.js:3:16)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+[2013-05-08 14:59:46.455] [INFO] \node_modules\pomelo\lib\application.js - application inited: "connector-server-2"
+[2013-05-08 14:59:47.027] [INFO] console - info: 'socket.io started'
+[2013-05-08 14:59:47.049] [INFO] console - [32m[2013-05-08 14:59:47.048] [INFO] \node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-05-08 14:59:47.096] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" enter after start...
+[2013-05-08 14:59:47.101] [INFO] \node_modules\pomelo\lib\application.js - "connector-server-2" finish start

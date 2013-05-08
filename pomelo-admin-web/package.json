@@ -1,0 +1,18 @@
+{
+  "name": "pomelo-admin-web",
+  "version": "0.0.2",
+  "private": false,
+  "dependencies": {
+    "express": ">=0.0.1",
+    "ejs": ">=0.0.1"
+  },
+  "readme": "# pomelo-admin-web\npomelo-admin-web is a web console for [pomelo](https://github.com/NetEase/pomelo). it is based on [pomelo-admin](https://github.com/NetEase/pomelo-admin). it is just an web console example, you can implement your style like web console.      \n\n##Installation\n```\nnpm install pomelo-admin-web  \n```\n##Usage\njust run  \n```\nnode app.js\n```\n\nopen browser in your computer,and enjoy it \n",
+  "readmeFilename": "README.md",
+  "_id": "pomelo-admin-web@0.0.2",
+  "description": "pomelo-admin-web is a web console for [pomelo](https://github.com/NetEase/pomelo). it is based on [pomelo-admin](https://github.com/NetEase/pomelo-admin). it is just an web console example, you can implement your style like web console.",
+  "dist": {
+    "shasum": "e59988b8bca12b85bcf2fa11b6a0ee3507aa2852"
+  },
+  "_from": "pomelo-admin-web@",
+  "_resolved": "https://registry.npmjs.org/pomelo-admin-web/-/pomelo-admin-web-0.0.2.tgz"
+}

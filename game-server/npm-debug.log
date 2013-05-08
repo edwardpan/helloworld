@@ -1,0 +1,180 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'v8-profiler' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose node symlink D:\Program Files\nodejs\\node.exe
+5 verbose read json F:\panchao\nodeproject\helloworld\game-server\package.json
+6 warn package.json helloworld@0.0.1 No README.md file found!
+7 verbose read json F:\panchao\nodeproject\helloworld\game-server\node_modules\pomelo\package.json
+8 verbose from cache F:\panchao\nodeproject\helloworld\game-server\package.json
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'v8-profiler', null ]
+11 verbose cache add name=undefined spec="v8-profiler" args=["v8-profiler",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'v8-profiler',
+12 verbose parsed url   path: 'v8-profiler',
+12 verbose parsed url   href: 'v8-profiler' }
+13 silly lockFile a12f389f-v8-profiler v8-profiler
+14 verbose lock v8-profiler C:\Users\Edward\AppData\Roaming\npm-cache\a12f389f-v8-profiler.lock
+15 silly lockFile a12f389f-v8-profiler v8-profiler
+16 silly lockFile a12f389f-v8-profiler v8-profiler
+17 verbose addNamed [ 'v8-profiler', '' ]
+18 verbose addNamed [ null, '' ]
+19 silly lockFile f875d38f-v8-profiler v8-profiler@
+20 verbose lock v8-profiler@ C:\Users\Edward\AppData\Roaming\npm-cache\f875d38f-v8-profiler.lock
+21 silly addNameRange { name: 'v8-profiler', range: '', hasData: false }
+22 verbose url raw v8-profiler
+23 verbose url resolving [ 'https://registry.npmjs.org/', './v8-profiler' ]
+24 verbose url resolved https://registry.npmjs.org/v8-profiler
+25 info trying registry request attempt 1 at 14:54:07
+26 http GET https://registry.npmjs.org/v8-profiler
+27 http 200 https://registry.npmjs.org/v8-profiler
+28 silly registry.get cb [ 200,
+28 silly registry.get   { vary: 'Accept',
+28 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+28 silly registry.get     etag: '"3E8KYSP1KGXYPLU0X5YX87IUO"',
+28 silly registry.get     date: 'Wed, 08 May 2013 06:53:48 GMT',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'content-length': '8221' } ]
+29 silly addNameRange number 2 { name: 'v8-profiler', range: '', hasData: true }
+30 silly addNameRange versions [ 'v8-profiler',
+30 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '3.6.2beta', '3.6.2beta2', '3.6.2-1' ] ]
+31 verbose addNamed [ 'v8-profiler', '3.6.2-1' ]
+32 verbose addNamed [ '3.6.2-1', '3.6.2-1' ]
+33 silly lockFile 19e1a1b9-v8-profiler-3-6-2-1 v8-profiler@3.6.2-1
+34 verbose lock v8-profiler@3.6.2-1 C:\Users\Edward\AppData\Roaming\npm-cache\19e1a1b9-v8-profiler-3-6-2-1.lock
+35 verbose read json C:\Users\Edward\AppData\Roaming\npm-cache\v8-profiler\3.6.2-1\package\package.json
+36 silly lockFile 19e1a1b9-v8-profiler-3-6-2-1 v8-profiler@3.6.2-1
+37 silly lockFile 19e1a1b9-v8-profiler-3-6-2-1 v8-profiler@3.6.2-1
+38 silly lockFile f875d38f-v8-profiler v8-profiler@
+39 silly lockFile f875d38f-v8-profiler v8-profiler@
+40 silly resolved [ { name: 'v8-profiler',
+40 silly resolved     version: '3.6.2-1',
+40 silly resolved     description: 'node bindings for the v8 profiler',
+40 silly resolved     homepage: 'http://github.com/dannycoates/v8-profiler',
+40 silly resolved     author: { name: 'Danny Coates', email: 'dannycoates@gmail.com' },
+40 silly resolved     keywords: [ 'profiler', 'inspector' ],
+40 silly resolved     engines: { node: '>=0.6' },
+40 silly resolved     main: 'v8-profiler',
+40 silly resolved     scripts: { install: 'node-gyp rebuild' },
+40 silly resolved     gypfile: true,
+40 silly resolved     readme: 'v8-profiler provides [node](http://github.com/ry/node) bindings for the v8 \nprofiler and integration with [node-inspector](http://github.com/dannycoates/node-inspector)\n\n## Installation\n\n    npm install v8-profiler\n\n## Usage\n\n    var profiler = require(\'v8-profiler\');\n\n## API\n\n    var snapshot = profiler.takeSnapshot([name])      //takes a heap snapshot\n\n    profiler.startProfiling([name])                   //begin cpu profiling\n    var cpuProfile = profiler.stopProfiling([name])   //finish cpu profiling\n\n## node-inspector\n\nCpu profiles can be viewed and heap snapshots may be taken and viewed from the\nprofiles panel.\n',
+40 silly resolved     readmeFilename: 'readme.md',
+40 silly resolved     _id: 'v8-profiler@3.6.2-1',
+40 silly resolved     _from: 'v8-profiler@' } ]
+41 info install v8-profiler@3.6.2-1 into F:\panchao\nodeproject\helloworld\game-server
+42 info installOne v8-profiler@3.6.2-1
+43 verbose from cache C:\Users\Edward\AppData\Roaming\npm-cache\v8-profiler\3.6.2-1\package\package.json
+44 info F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler unbuild
+45 verbose read json F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler\package.json
+46 verbose tar unpack C:\Users\Edward\AppData\Roaming\npm-cache\v8-profiler\3.6.2-1\package.tgz
+47 silly lockFile 419e08e0--server-node-modules-v8-profiler F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler
+48 verbose lock F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler C:\Users\Edward\AppData\Roaming\npm-cache\419e08e0--server-node-modules-v8-profiler.lock
+49 silly lockFile dca7eb87--v8-profiler-3-6-2-1-package-tgz C:\Users\Edward\AppData\Roaming\npm-cache\v8-profiler\3.6.2-1\package.tgz
+50 verbose lock C:\Users\Edward\AppData\Roaming\npm-cache\v8-profiler\3.6.2-1\package.tgz C:\Users\Edward\AppData\Roaming\npm-cache\dca7eb87--v8-profiler-3-6-2-1-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+54 silly gunzTarPerm extractEntry .npmignore
+55 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+56 silly gunzTarPerm extractEntry v8-profiler.js
+57 silly gunzTarPerm modified mode [ 'v8-profiler.js', 438, 420 ]
+58 silly gunzTarPerm extractEntry profile.cc
+59 silly gunzTarPerm modified mode [ 'profile.cc', 438, 420 ]
+60 silly gunzTarPerm extractEntry graph_edge.cc
+61 silly gunzTarPerm modified mode [ 'graph_edge.cc', 438, 420 ]
+62 silly gunzTarPerm extractEntry graph_edge.h
+63 silly gunzTarPerm modified mode [ 'graph_edge.h', 438, 420 ]
+64 silly gunzTarPerm extractEntry graph_node.cc
+65 silly gunzTarPerm modified mode [ 'graph_node.cc', 438, 420 ]
+66 silly gunzTarPerm extractEntry graph_node.h
+67 silly gunzTarPerm modified mode [ 'graph_node.h', 438, 420 ]
+68 silly gunzTarPerm extractEntry heap_profiler.cc
+69 silly gunzTarPerm modified mode [ 'heap_profiler.cc', 438, 420 ]
+70 silly gunzTarPerm extractEntry heap_profiler.h
+71 silly gunzTarPerm modified mode [ 'heap_profiler.h', 438, 420 ]
+72 silly gunzTarPerm extractEntry Makefile
+73 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+74 silly gunzTarPerm extractEntry binding.gyp
+75 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+76 silly gunzTarPerm extractEntry cpu_profiler.h
+77 silly gunzTarPerm modified mode [ 'cpu_profiler.h', 438, 420 ]
+78 silly gunzTarPerm extractEntry profile.h
+79 silly gunzTarPerm modified mode [ 'profile.h', 438, 420 ]
+80 silly gunzTarPerm extractEntry profiler.cc
+81 silly gunzTarPerm modified mode [ 'profiler.cc', 438, 420 ]
+82 silly gunzTarPerm extractEntry profile_node.cc
+83 silly gunzTarPerm modified mode [ 'profile_node.cc', 438, 420 ]
+84 silly gunzTarPerm extractEntry profile_node.h
+85 silly gunzTarPerm modified mode [ 'profile_node.h', 438, 420 ]
+86 silly gunzTarPerm extractEntry readme.md
+87 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+88 silly gunzTarPerm extractEntry snapshot.cc
+89 silly gunzTarPerm modified mode [ 'snapshot.cc', 438, 420 ]
+90 silly gunzTarPerm extractEntry snapshot.h
+91 silly gunzTarPerm modified mode [ 'snapshot.h', 438, 420 ]
+92 silly gunzTarPerm extractEntry cpu_profiler.cc
+93 silly gunzTarPerm modified mode [ 'cpu_profiler.cc', 438, 420 ]
+94 silly gunzTarPerm extractEntry wscript
+95 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+96 verbose read json F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler\package.json
+97 silly lockFile 419e08e0--server-node-modules-v8-profiler F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler
+98 silly lockFile 419e08e0--server-node-modules-v8-profiler F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler
+99 silly lockFile dca7eb87--v8-profiler-3-6-2-1-package-tgz C:\Users\Edward\AppData\Roaming\npm-cache\v8-profiler\3.6.2-1\package.tgz
+100 silly lockFile dca7eb87--v8-profiler-3-6-2-1-package-tgz C:\Users\Edward\AppData\Roaming\npm-cache\v8-profiler\3.6.2-1\package.tgz
+101 info preinstall v8-profiler@3.6.2-1
+102 verbose from cache F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler\package.json
+103 verbose readDependencies using package.json deps
+104 verbose from cache F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler\package.json
+105 verbose readDependencies using package.json deps
+106 silly resolved []
+107 verbose about to build F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler
+108 info build F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler
+109 verbose from cache F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler\package.json
+110 verbose linkStuff [ false,
+110 verbose linkStuff   false,
+110 verbose linkStuff   false,
+110 verbose linkStuff   'F:\\panchao\\nodeproject\\helloworld\\game-server\\node_modules' ]
+111 info linkStuff v8-profiler@3.6.2-1
+112 verbose linkBins v8-profiler@3.6.2-1
+113 verbose linkMans v8-profiler@3.6.2-1
+114 verbose rebuildBundles v8-profiler@3.6.2-1
+115 info install v8-profiler@3.6.2-1
+116 verbose unsafe-perm in lifecycle true
+117 silly exec cmd "/c" "node-gyp rebuild"
+118 silly cmd,/c,node-gyp rebuild,F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler spawning
+119 info v8-profiler@3.6.2-1 Failed to exec install script
+120 info F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler unbuild
+121 verbose from cache F:\panchao\nodeproject\helloworld\game-server\node_modules\v8-profiler\package.json
+122 info preuninstall v8-profiler@3.6.2-1
+123 info uninstall v8-profiler@3.6.2-1
+124 verbose true,F:\panchao\nodeproject\helloworld\game-server\node_modules,F:\panchao\nodeproject\helloworld\game-server\node_modules unbuild v8-profiler@3.6.2-1
+125 info postuninstall v8-profiler@3.6.2-1
+126 error v8-profiler@3.6.2-1 install: `node-gyp rebuild`
+126 error `cmd "/c" "node-gyp rebuild"` failed with 1
+127 error Failed at the v8-profiler@3.6.2-1 install script.
+127 error This is most likely a problem with the v8-profiler package,
+127 error not with npm itself.
+127 error Tell the author that this fails on your system:
+127 error     node-gyp rebuild
+127 error You can get their info via:
+127 error     npm owner ls v8-profiler
+127 error There is likely additional logging output above.
+128 error System Windows_NT 6.1.7601
+129 error command "D:\\Program Files\\nodejs\\\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "v8-profiler"
+130 error cwd F:\panchao\nodeproject\helloworld\game-server
+131 error node -v v0.10.5
+132 error npm -v 1.2.18
+133 error code ELIFECYCLE
+134 verbose exit [ 1, true ]
